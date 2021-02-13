@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/toss_coin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/coin"
+            android:layout_width="256sp"
+            android:layout_height="256sp"
+            android:layout_marginTop="80sp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/head_real" />
+
+        <Button
+            android:id="@+id/flip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/coin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50sp"
+            android:padding="15sp"
+            android:text="TOSS"
+            android:backgroundTint="@color/colorAccent"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+<!--    <com.google.android.gms.ads.AdView-->
+<!--        xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--        android:id="@+id/adView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        ads:adSize="BANNER"-->
+<!--        ads:adUnitId="ca-app-pub-8080218238741505/6433486496">-->
+<!--    </com.google.android.gms.ads.AdView>-->
+
+</RelativeLayout>

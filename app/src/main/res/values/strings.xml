@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Adarsh Toss App</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8080218238741505/6433486496</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="oops">Oops !</string>
+    <string name="check_your_network">Check your Network</string>
+    <string name="try_again">Try Again</string>
+    <string name="todo">TODO</string>
+</resources>
